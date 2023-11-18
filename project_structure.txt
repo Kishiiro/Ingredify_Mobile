@@ -1,0 +1,29 @@
+YourProjectName/
+|-- assets/              # Images, fonts, and other static assets
+|-- components/          # Reusable UI components
+|   |-- common/          # Shared UI components
+|       |-- Header.js    # Header component
+|       |-- Footer.js    # Footer component
+|       |-- Layout.js    # Layout component
+|       |-- Loading.js   
+|       |-- CustomDrawer.js   
+|       |-- CustomDrawercontent.js   
+|-- hooks/               # New directory for custom hooks
+|   |-- useUserInfo.js   # New file for useUserInfo hook
+|   |-- ...              # More screens or sections
+|-- navigation/          # Navigation configuration
+|-- screens/             # Individual app screens/pages
+|   |-- Screen1.js       # Screen1 component
+|   |-- Screen2.js       # Screen2 component
+|   |-- ...              # More screens
+|-- services/            # API services, utilities, and helpers
+|   |-- api.js 
+|   |-- AuthContext.js
+|   |-- tokenHelper.js
+|-- store/               # State management (Redux, MobX, etc.)
+|-- utils/               # Utility functions
+|-- App.js               # App's entry point
+|-- app.json             # Expo app configuration
+|-- AppRoutes.json
+|-- package.json         # Project dependencies and scripts
+|-- README.md            # Project documentation
